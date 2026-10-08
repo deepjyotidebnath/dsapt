@@ -1,0 +1,102 @@
+Absolutely. Here is a **50-problem Tree practice roadmap**, arranged from **very basic → intermediate → advanced**. These are **normal DSA practice problems, not LeetCode-style questions**.
+
+## 🌱 Level 1 — Basic Tree Concepts
+
+1. Create a Binary Tree
+2. Print Root Node
+3. Count Number of Nodes
+4. Find Sum of All Nodes
+5. Find Maximum Node
+6. Find Minimum Node
+7. Find Height of Tree
+8. Count Leaf Nodes
+9. Count Internal Nodes
+10. Search for a Node
+
+## 🌿 Level 2 — Tree Traversals
+
+11. Inorder Traversal
+12. Preorder Traversal
+13. Postorder Traversal
+14. Level Order Traversal
+15. Reverse Level Order Traversal
+16. Print Nodes at Level K
+17. Print Left View of Tree
+18. Print Right View of Tree
+19. Print All Leaf Nodes
+20. Print Boundary Nodes
+
+## 🌳 Level 3 — Basic Tree Problems
+
+21. Find Depth of a Given Node
+22. Find Level of a Given Node
+23. Find Parent of a Given Node
+24. Find Sibling of a Given Node
+25. Find Diameter of Binary Tree
+26. Find Lowest Common Ancestor
+27. Check if Two Trees are Same
+28. Check if Two Trees are Mirror
+29. Check if Tree is Symmetric
+30. Count Nodes with One Child
+
+## 🌲 Level 4 — Binary Search Tree (BST)
+
+31. Create a BST
+32. Insert a Node in BST
+33. Search in BST
+34. Find Minimum in BST
+35. Find Maximum in BST
+36. Find Inorder Successor
+37. Find Inorder Predecessor
+38. Delete a Node from BST
+39. Check if a Binary Tree is BST
+40. Find Kth Smallest Element in BST
+
+## 🔥 Level 5 — Advanced
+
+41. Find Kth Largest Element in BST
+42. Find Lowest Common Ancestor in BST
+43. Convert Sorted Array to BST
+44. Convert BST to Sorted Array
+45. Convert Binary Tree to Doubly Linked List
+46. Construct Tree from Inorder + Preorder
+47. Construct Tree from Inorder + Postorder
+48. Find Maximum Path Sum
+49. Serialize and Deserialize Binary Tree
+50. **AVL Tree — Insert, Rotate and Balance**
+
+### Recommended order for you
+
+Since you're currently learning basic DSA, I would do them like this:
+
+```text
+1-10   → Understand trees
+11-20  → Master traversals
+21-30  → Recursion + tree logic
+31-40  → Learn BST
+41-50  → Advanced tree algorithms
+```
+
+### ⭐ Most important 15
+
+If you don't want to solve all 50 immediately, prioritize:
+
+```text
+3.  Count Nodes
+5.  Maximum Node
+7.  Height
+8.  Leaf Nodes
+11. Inorder
+12. Preorder
+13. Postorder
+14. Level Order
+16. Nodes at Level K
+25. Diameter
+26. LCA
+33. BST Search
+34. BST Minimum
+38. BST Delete
+39. Check BST
+```
+
+For your current level, **start with #1–10 using very simple Python classes and recursion**, then move to traversals.

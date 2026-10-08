@@ -1,0 +1,136 @@
+If you're starting **Stack**, here is a simple roadmap like we did for Trees and Linked Lists.
+
+## 🟢 50 Stack Problems — Basic to Advanced
+
+### Level 1 — Very Basic
+
+1. Create a Stack
+2. Push an Element
+3. Pop an Element
+4. Peek / Top Element
+5. Check if Stack is Empty
+6. Check if Stack is Full
+7. Find Stack Size
+8. Print Stack
+9. Find Maximum Element
+10. Find Minimum Element
+
+### Level 2 — Basic Problems
+
+11. Reverse a Stack
+12. Search an Element
+13. Count Even Elements
+14. Count Odd Elements
+15. Find Sum of Elements
+16. Copy One Stack to Another
+17. Remove All Elements
+18. Insert Element at Bottom
+19. Delete Bottom Element
+20. Sort a Stack
+
+### Level 3 — String Problems Using Stack
+
+21. Reverse a String
+22. Check Palindrome Using Stack
+23. Check Balanced Parentheses
+24. Check Balanced Brackets `()[]{}`
+25. Remove Adjacent Duplicate Characters
+26. Reverse Words Using Stack
+27. Convert Decimal to Binary
+28. Convert Decimal to Octal
+29. Convert Decimal to Hexadecimal
+30. Evaluate Postfix Expression
+
+### Level 4 — Expression Problems
+
+31. Infix to Postfix
+32. Infix to Prefix
+33. Postfix to Infix
+34. Prefix to Infix
+35. Postfix to Prefix
+36. Prefix to Postfix
+37. Evaluate Prefix Expression
+38. Evaluate Infix Expression
+39. Check Valid Expression
+40. Find Operator Precedence
+
+### Level 5 — Advanced Stack
+
+41. Next Greater Element
+42. Next Smaller Element
+43. Previous Greater Element
+44. Previous Smaller Element
+45. Stock Span Problem
+46. Largest Rectangle in Histogram
+47. Min Stack
+48. Two Stacks in One Array
+49. Stack Using Two Queues
+50. **Queue Using Two Stacks**
+
+### ⭐ Start with these
+
+For your current level, do:
+
+```text
+1. Create Stack
+2. Push
+3. Pop
+4. Peek
+5. Is Empty
+6. Size
+7. Print Stack
+8. Reverse Stack
+9. Reverse String
+10. Balanced Parentheses
+```
+
+Then move to **infix/postfix/prefix** problems.
+
+### Basic Python Stack
+
+The easiest way is using a Python list:
+
+```python
+stack = []
+
+# PUSH
+stack.append(10)
+stack.append(20)
+stack.append(30)
+
+print(stack)
+
+# POP
+print(stack.pop())
+
+# PEEK
+print(stack[-1])
+
+# SIZE
+print(len(stack))
+
+# CHECK EMPTY
+print(len(stack) == 0)
+```
+
+Output:
+
+```text
+[10, 20, 30]
+30
+20
+3
+False
+```
+
+**Important:** Stack follows **LIFO**:
+
+```text
+LIFO = Last In, First Out
+
+10 → 20 → 30
+
+POP → 30
+POP → 20
+POP → 10
+```
